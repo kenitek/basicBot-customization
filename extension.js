@@ -68,7 +68,7 @@
         timeGuard: true,
         maximumSongLength: 11,
         autodisable: true,
-        commandCooldown: 5,
+        commandCooldown: 1,
         usercommandsEnabled: true,
         lockskipPosition: 2,
         lockskipReasons: [
@@ -88,7 +88,7 @@
         filterChat: false,
         etaRestriction: false,
         welcome: false,
-        opLink: "http://pastebin.com/DER45w5m",
+        opLink: "http://pastebin.com/N2xAtwS6",
         rulesLink: "http://pastebin.com/6NEPtZW9",
         themeLink: "http://i.imgur.com//nNSnshB.png",
         fbLink: "https://twitter.com/forsensc2",
