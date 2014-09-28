@@ -92,7 +92,7 @@
         rulesLink: "http://pastebin.com/6NEPtZW9",
         themeLink: "http://i.imgur.com//nNSnshB.png",
         fbLink: "https://twitter.com/forsensc2",
-        youtubeLink: ":kappa: https://twitch.tv/hornpub",
+        youtubeLink: "https://twitch.tv/hornpub :kappa:",
         website: "http://twitch.tv/forsenlol",
         intervalMessages: [],
         messageInterval: 1,
