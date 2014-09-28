@@ -57,7 +57,7 @@
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 5000,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 125,
         bouncerPlus: true,
         lockdownEnabled: false,
