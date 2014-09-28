@@ -80,7 +80,7 @@
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
         ],
-        afkpositionCheck: 15,
+        afkpositionCheck: 1000,
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
@@ -92,7 +92,7 @@
         rulesLink: "http://pastebin.com/6NEPtZW9",
         themeLink: "http://i.imgur.com//nNSnshB.png",
         fbLink: "https://twitter.com/forsensc2",
-        youtubeLink: ":kappa:",
+        youtubeLink: ":kappa: https://twitch.tv/hornpub",
         website: "http://twitch.tv/forsenlol",
         intervalMessages: [],
         messageInterval: 5,
