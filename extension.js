@@ -68,7 +68,7 @@
         timeGuard: true,
         maximumSongLength: 11,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 5,
         usercommandsEnabled: true,
         lockskipPosition: 2,
         lockskipReasons: [
@@ -95,7 +95,7 @@
         youtubeLink: ":kappa: https://twitch.tv/hornpub",
         website: "http://twitch.tv/forsenlol",
         intervalMessages: [],
-        messageInterval: 5,
+        messageInterval: 1,
         songstats: false,
         commandLiteral: "!",
         blacklists: {
