@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: ":Kappa: Bot",
         language: "english",
-        chatLink: "https://rawgit.com/kenitek/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 5000,
         afkRemoval: false,
         maximumDc: 125,
@@ -83,7 +83,7 @@
         afkpositionCheck: 1000,
         afkRankCheck: "ambassador",
         motdEnabled: true,
-        motdInterval: 10,
+        motdInterval: 2,
         motd: "Rules: http://pastebin.com/6NEPtZW9 Look for here if you're new to Plug.dj: http://i.imgur.com/WfBlklF.jpg or here: http://pastebin.com/a4eqQJ79",
         filterChat: false,
         etaRestriction: false,
@@ -99,8 +99,8 @@
         songstats: false,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/kenitek/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/kenitek/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
