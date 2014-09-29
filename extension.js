@@ -83,7 +83,7 @@
         afkpositionCheck: 1000,
         afkRankCheck: "ambassador",
         motdEnabled: true,
-        motdInterval: 2,
+        motdInterval: 10,
         motd: "Rules: http://pastebin.com/6NEPtZW9 Look for here if you're new to Plug.dj: http://i.imgur.com/WfBlklF.jpg or here: http://pastebin.com/a4eqQJ79",
         filterChat: false,
         etaRestriction: false,
