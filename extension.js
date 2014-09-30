@@ -84,7 +84,7 @@
                         }
                     }
                 }
-            },
+        },
             
         bot.commands.cookieCommand = {
                 command: 'cookie',
@@ -148,7 +148,8 @@
                             }
                         }
                     }
-                },
+                }
+        },
             
             
         bot.commands.kolentoCommand = {
