@@ -45,43 +45,10 @@
             }
         };
 
-cookieCommand: {
-                command: 'cookie',
-                rank: 'user',
-                type: 'exact',
-                cookies: ['has given you a chocolate chip cookie!',
-                    'has given you a soft homemade oatmeal cookie!',
-                    'has given you a plain, dry, old cookie. It was the last one in the bag. Gross.',
-                    'gives you a sugar cookie. What, no frosting and sprinkles? 0/10 would not touch.',
-                    'gives you a chocolate chip cookie. Oh wait, those are raisins. Bleck!',
-                    'gives you an enormous cookie. Poking it gives you more cookies. Weird.',
-                    'gives you a fortune cookie. It reads "Why aren\'t you working on any projects?"',
-                    'gives you a fortune cookie. It reads "Give that special someone a compliment"',
-                    'gives you a fortune cookie. It reads "Take a risk!"',
-                    'gives you a fortune cookie. It reads "Go outside."',
-                    'gives you a fortune cookie. It reads "Don\'t forget to eat your veggies!"',
-                    'gives you a fortune cookie. It reads "Do you even lift?"',
-                    'gives you a fortune cookie. It reads "m808 pls"',
-                    'gives you a fortune cookie. It reads "If you move your hips, you\'ll get all the ladies."',
-                    'gives you a fortune cookie. It reads "I love you."',
-                    'gives you a Golden Cookie. You can\'t eat it because it is made of gold. Dammit.',
-                    'gives you an Oreo cookie with a glass of milk!',
-                    'gives you a rainbow cookie made with love :heart:',
-                    'gives you an old cookie that was left out in the rain, it\'s moldy.',
-                    'bakes you fresh cookies, it smells amazing.'
-                    'bakes a cookie, it\'s for Darude.'
-                    'gives you a cookie. It reads ":uwotm8:."'
-                    'gives you a cookie. It reads "rip :nipaface:."'
-                    'gives you a cookie. It reads "1v1 me irl."'
-                    'gives you a cookie. It got taken away by the Nazis :forsensheffy:7.'
-                    'gives you... Hornpub* a cookie.'
-                    'gives you 3 cookies :forsentriple:.'
-                    'thinks about giving you a cookie :forsenkev:.'
-                ],
-                getCookie: function () {
-                    var c = Math.floor(Math.random() * this.cookies.length);
-                    return this.cookies[c];
-                },
+        //Load the chat package again to account for any changes
+        bot.loadChat();
+
+    }
 
     //Change the bots default settings and make sure they are loaded on launch
 
