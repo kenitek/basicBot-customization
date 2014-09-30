@@ -58,6 +58,19 @@
             }
         },
         
+        bot.commands.victorfm = {
+            command: 'victorfm',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me when the bass drop¿");
+                }
+            }
+        },
+        
         bot.commands.tupCommand = {
             command: 'tup',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
@@ -399,7 +412,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "New :kappa: Bot Commands: !bait, !clap, !fatdarude, !feg, !flyin, !hp, !kev, !kolento, !kr, !lol, !nipaface, !notgay, !notsanic, !rekt, !rigged, !rucka, !sanic, !scotland, !tup, !win, !wtf.",
+        motd: "New :kappa: Bot Commands: !bait, !clap, !fatdarude, !feg, !flyin, !hp, !kev, !kolento, !kr, !lol, !nipaface, !notgay, !notsanic, !rekt, !rigged, !rucka, !sanic, !scotland, !tup, !victorfm, !win, !wtf.",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
