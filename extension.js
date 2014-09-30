@@ -107,7 +107,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me :sanic: gotta go fast!");
+                    API.sendChat("/me :sanic::sanic: GOTTA GO FAST!!!!!");
                 }
             }
         },
@@ -198,7 +198,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me not :sanic: :kappa:.");
+                    API.sendChat("/me not :sanic: :kappa:");
                 }
             }
         },
