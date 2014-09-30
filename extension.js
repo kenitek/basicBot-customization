@@ -373,7 +373,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "New :kappa: Bot Commands: !clap, !fatdarude, !feg, !flyin, !hp, !kolento, !kr, !lol, !nipaface, !notgay, !notsanic, !rigged, !rucka, !sanic, !scotland, !win, !wtf.",
+        motd: "New :kappa: Bot Commands: !clap, !fatdarude, !feg, !flyin, !hp, !kev, !kolento, !kr, !lol, !nipaface, !notgay, !notsanic, !rigged, !rucka, !sanic, !scotland, !win, !wtf.",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
