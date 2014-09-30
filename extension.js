@@ -43,12 +43,26 @@
                     API.sendChat("/me Bacon!!!");
                 }
             }
+        },
+            
+        bot.commands.kolentoCommand = {
+            command: 'kolento',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me https://images.encyclopediadramatica.es/e/eb/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2.gif");
+                }
+            }
         };
-
+        
         //Load the chat package again to account for any changes
         bot.loadChat();
 
     }
+
 
     //Change the bots default settings and make sure they are loaded on launch
 
