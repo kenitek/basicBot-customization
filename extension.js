@@ -128,8 +128,7 @@
             });
         }
 
-    }
-};
+    };
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: ":Kappa: Bot",
