@@ -185,7 +185,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Your all faggots :keepo:");
+                    API.sendChat("/me You're all faggots :keepo:");
                 }
             }
         },
@@ -198,7 +198,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me not gay at all :keepo:");
+                    API.sendChat("/me not gay at all :kappa:");
                 }
             }
         },
@@ -251,6 +251,45 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                     API.sendChat("/me rucka rucka :dansgame:");
+                }
+            }
+        },
+        
+        bot.commands.clapCommand = {
+            command: 'clap',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/urrL82C.gif");
+                }
+            }
+        },
+        
+            bot.commands.kevCommand = {
+            command: 'kev',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me https://dl.dropboxusercontent.com/u/2458938/rottiboard/rottiboard.html");
+                }
+            }
+        },
+        
+            bot.commands.winCommand = {
+            command: 'win',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/WmRiO.gif");
                 }
             }
         },
@@ -308,7 +347,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "New :kappa: Bot Commands: !fatdarude, !feg, !flyin, !hp, !kolento, !lol, !nipaface, !notgay, !notsanic, !rigged, !rucka, !sanic, !scotland, !wtf",
+        motd: "New :kappa: Bot Commands: !clap, !fatdarude, !feg, !flyin, !hp, !kolento, !lol, !nipaface, !notgay, !notsanic, !rigged, !rucka, !sanic, !scotland, !win, !wtf",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
