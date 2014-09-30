@@ -133,7 +133,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me :scotland: FOREVAAAHHHHH!!!!!");
+                    API.sendChat("/me :scotland: FOREVVVVAAAHHHHH!!!!!");
                 }
             }
         },
@@ -295,7 +295,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "Rules: http://pastebin.com/6NEPtZW9 Look for here if you're new to Plug.dj: http://i.imgur.com/WfBlklF.jpg or here: http://pastebin.com/a4eqQJ79",
+        motd: "New :kappa: Bot Commands: !fatdarude, !feg, !flyin, !hp, !kolento, !lol, !nipaface, !notgay, !notsanic, !rucka, !sanic, !scotland, !wtf"
         filterChat: false,
         etaRestriction: false,
         welcome: false,
