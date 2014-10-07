@@ -580,7 +580,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "Bot Commands: http://pastebin.com/U4hS11n3 Rules: http://pastebin.com/6NEPtZW9 Look for here if you're new to Plug.dj: http://i.imgur.com/WfBlklF.jpg or here: http://pastebin.com/a4eqQJ79 . **Forsen will be streaming on Oct 7th**",
+        motd: "Bot Commands: http://pastebin.com/U4hS11n3 Rules: http://pastebin.com/6NEPtZW9 **No sanic, mlg, scotland while Forsen is Streaming**,
         filterChat: false,
         etaRestriction: false,
         welcome: false,
