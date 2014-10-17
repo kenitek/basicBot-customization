@@ -71,6 +71,19 @@
             }
         },
         
+        bot.commands.lunacCommand = {
+            command: 'lunac',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/G0HJfqk.gif");
+                }
+            }
+        },
+        
         bot.commands.fingCommand = {
             command: 'fing',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
@@ -183,6 +196,19 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                     API.sendChat("/me http://i.imgur.com/MTmwzqE.png");
+                }
+            }
+        },
+        
+        bot.commands.jepCommand = {
+            command: 'jep2',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/PzRSYkZ.png");
                 }
             }
         },
@@ -587,7 +613,7 @@
 
     //Change the bots default settings and make sure they are loaded on launch
 
-    localStorage.setItem("basicBotsettings", JSON.stringify({
+    localStorage.setItem("basicBotsettings", JSON.stjringify({
         botName: "KeniBot :kappa:",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
