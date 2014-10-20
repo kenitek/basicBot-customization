@@ -658,7 +658,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Bot Commands: http://pastebin.com/U4hS11n3 Rules: http://pastebin.com/6NEPtZW9 **Forsen is playing at: http://www.twitch.tv/taketvred**",
+        motd: "Bot Commands: http://pastebin.com/U4hS11n3 Rules: http://pastebin.com/6NEPtZW9 **While Forsen is streaming no: Sanic, MLG, Scotland, ear rape**",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
