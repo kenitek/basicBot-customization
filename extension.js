@@ -736,7 +736,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "If your interested in joining our HS tournament view the link: https://docs.google.com/document/d/1FgkKXnBZS2NwFIl8XLVBnSR9CNMccwN4LBRIQEEZdxY **While Forsen is streaming no: Sanic, MLG, Scotland, ear rape**",
+        motd: "Bot Commands: http://pastebin.com/U4hS11n3 **While Forsen is streaming no: Sanic, MLG, Scotland, ear rape**",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
