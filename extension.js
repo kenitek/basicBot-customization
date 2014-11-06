@@ -53,7 +53,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me https://www.youtube.com/watch?v=pXIoB9RPl6w");
+                    API.sendChat("/me If your new to plug.dj Watch this Tutorial: https://www.youtube.com/watch?v=pXIoB9RPl6w");
                 }
             }
         },
