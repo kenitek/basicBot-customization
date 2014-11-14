@@ -32,7 +32,7 @@
 
          */
 
-        bot.commands.baconCommand = {
+                bot.commands.baconCommand = {
             command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
@@ -53,7 +53,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me If your new to plug.dj Watch this Tutorial: https://www.youtube.com/watch?v=pXIoB9RPl6w");
+                    API.sendChat("/me If you're new to plug.dj Watch this Tutorial: https://www.youtube.com/watch?v=pXIoB9RPl6w");
                 }
             }
         },
@@ -410,6 +410,46 @@
                 }
             }
         },
+        
+        +        bot.commands.gravCommand = {
+            command: 'grav',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/C4Vt39q.png");
+                }
+            }
+        },
+        
+                bot.commands.shr2Command = {
+            command: 'shr2',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/Ub1pci4.png");
+                }
+            }
+        },
+        
+                        bot.commands.jack2Command = {
+            command: 'jack2',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/3DtFyUo.png");
+                }
+            }
+        },
+         
         
                 bot.commands.grillCommand = {
             command: 'grill',  //The command to be called. With the standard command literal this would be: !bacon
