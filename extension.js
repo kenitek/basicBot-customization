@@ -59,7 +59,20 @@
         },
         
         
-        bot.commands.snoopCommand = {
+        bot.commands.gorCommand = {
+            command: 'gor',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/17FeUtG.png");
+                }
+            }
+        },
+        
+          bot.commands.snoopCommand = {
             command: 'snoop',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
@@ -576,7 +589,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me :sanic::sanic: GOTTA GO FAST!!!!!");
+                    API.sendChat("/me :sanic: http://i.imgur.com/76MZHjy.gif GOTTA GO FAST!!!!!");
                 }
             }
         },
