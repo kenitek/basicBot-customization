@@ -7,7 +7,7 @@
             return setTimeout(extend, 1 * 1000);
         }
 
-        //Precaution to make sure it is assigned properly.
+        //Precaution to make sure it is assigned properly.keni
         var bot = window.bot;
 
         //Load custom settings set below
@@ -43,6 +43,110 @@
             }
         },
         
+                        bot.commands.snusCommand = {
+            command: 'snus',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/xgBqXMn.gif");
+                }
+            }
+        },
+        
+                        bot.commands.melCommand = {
+            command: 'mel',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/Jt3d1d2.png");
+                }
+            }
+        },
+        
+                        bot.commands.hp2Command = {
+            command: 'hp2',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://imgur.com/othi9il");
+                }
+            }
+        },
+        
+                        bot.commands.gor2Command = {
+            command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/17FeUtG.png");
+                }
+            }
+        },
+        
+                        bot.commands.hydraCommand = {
+            command: 'hydra',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me https://i.imgur.com/d9OZevs.png");
+                }
+            }
+        },
+        
+                        bot.commands.dogCommand = {
+            command: 'dog',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/JitHIzl.png");
+                }
+            }
+        },
+        
+                        bot.commands.igorCommand = {
+            command: 'igor',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/fQ2irIZ.png");
+                }
+            }
+        },
+        
+                        bot.commands.jep3Command = {
+            command: 'jep3',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me http://i.imgur.com/pVD2ZJJ.png");
+                }
+            }
+        },
+        
                         bot.commands.keniCommand = {
             command: 'keni',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
@@ -64,7 +168,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me ༼ ▀̿Ĺ̯▀̿ ̿ ༽ WE ARE BOSS༼ ▀̿Ĺ̯▀̿ ̿ ༽");
+                    API.sendChat("/me ༼ ▀̿Ĺ̯▀̿ ̿ ༽ WE ARE BOSS ༼ ▀̿Ĺ̯▀̿ ̿ ༽");
                 }
             }
         },
