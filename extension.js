@@ -64,7 +64,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Stop Using Gyazo and Start Using Greenshot :swiftrage::swiftrage::swiftrage: Start the Revolution http://getgreenshot.org/");
+                    API.sendChat("/me Stop Using Gyazo and Start Using Greenshot :swiftrage::swiftrage::swiftrage: Start the Revolution http://sourceforge.net/projects/greenshot/");
                 }
             }
         },
