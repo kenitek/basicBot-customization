@@ -1,4 +1,4 @@
-(function () {
+(function () { ᅠᅠᅠᅠ
     //Define our function responsible for extending the bot.
     function extend() {
         //If the bot hasn't been loaded properly, try again in 1 second(s).
@@ -50,7 +50,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat(":wix1::wix2::wix1::wix2::wix1::wix2:ᅠᅠᅠᅠ :wix3::wix4::wix3::wix4::wix3::wix4:");
+                    API.sendChat(":wix1::wix2::wix1::wix2::wix1::wix2:ᅠᅠᅠᅠ /:wix3::wix4::wix3::wix4::wix3::wix4:");
                 }
             }
         },
