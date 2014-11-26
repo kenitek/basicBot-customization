@@ -985,7 +985,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Bot Commands: http://pastebin.com/U4hS11n3 **While Forsen is streaming no: Sanic, MLG, Scotland, ear rape**",
+        motd: "Bot Commands: http://pastebin.com/U4hS11n3 **Go Fucken Watch DreamHack to see Forsen get rekt**",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
