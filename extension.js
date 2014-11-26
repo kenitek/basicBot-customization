@@ -56,7 +56,7 @@
         },
         
                                 bot.commands.blastoise2Command = {
-            command: 'blastoise',  //The command to be called. With the standard command literal this would be: !bacon
+            command: 'blastoise2',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
