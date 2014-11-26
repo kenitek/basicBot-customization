@@ -50,7 +50,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat(":wix1::wix2::wix1::wix2::wix1::wix2:ᅠᅠᅠᅠ /:wix3::wix4::wix3::wix4::wix3::wix4:");
+                    API.sendChat(":wix1::wix2::wix1::wix2::wix1::wix2:ᅠᅠᅠᅠ :wix3::wix4::wix3::wix4::wix3::wix4:");
                 }
             }
         },
