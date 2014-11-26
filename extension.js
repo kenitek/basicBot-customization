@@ -1,4 +1,4 @@
-(function () { ᅠᅠᅠᅠ
+(function () {
     //Define our function responsible for extending the bot.
     function extend() {
         //If the bot hasn't been loaded properly, try again in 1 second(s).
