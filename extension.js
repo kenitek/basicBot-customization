@@ -1037,7 +1037,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Bot Commands: http://pastebin.com/U4hS11n3 **Go Fucken Watch DreamHack to see Forsen get rekt**",
+        motd: "Bot Commands: http://pastebin.com/U4hS11n3 **Go Watch DreamHack http://www.viagame.com/channels/dreamhack-hearthstone-championship/live-dreamhack-hearthstone-championship-english/0/en**",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
