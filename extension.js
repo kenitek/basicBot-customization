@@ -822,7 +822,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me :sanic: http://i.imgur.com/76MZHjy.gif GOTTA GO FAST!!!!!");
+                    API.sendChat("/me :sanic: http://i.imgur.com/6hZLwix.gif GOTTA GO FAST!!!!!");
                 }
             }
         },
