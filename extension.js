@@ -1037,7 +1037,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Bot Commands: http://pastebin.com/U4hS11n3 **Go Watch DreamHack http://www.viagame.com/channels/dreamhack-hearthstone-championship/live-dreamhack-hearthstone-championship-english/0/en**",
+        motd: "Second Plug.dj Tourny is coming up on saturday contact a manager or above to sign up. For more details visit https://docs.google.com/document/d/1r-yDKJETJPMAqE4tgCQ8C_TjnaUNFmsNqZu8IGINe_w *Purple Only",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
