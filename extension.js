@@ -1037,7 +1037,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Second Plugdj tourny is on saturday to sign up contact a manager or above. For more details visit http://challonge.com/plugdjforsentournament2 *Games Will be streamed on http://www.twitch.tv/tarulihs*",
+        motd: "Second Plugdj tourny is on saturday to sign up contact a manager or above. For more details visit http://challonge.com/plugdjforsentourny2 *Games Will be streamed on http://www.twitch.tv/tarulihs*",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
