@@ -1089,7 +1089,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Second Plugdj tourny is on saturday to sign up contact a manager or above. For more details visit http://challonge.com/plugdjforsentourny2 *Games Will be streamed on http://www.twitch.tv/tarulihs*",
+        motd: "Rules: http://pastebin.com/6NEPtZW9 *While Forsen is Streaming No Sanic, MLG, Scotland, Ear Rape, 'Nigger' word",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
