@@ -1101,7 +1101,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Rules: http://pastebin.com/6NEPtZW9 *While Forsen is Streaming No Sanic, MLG, Scotland, Ear Rape, 'Nigger' word",
+        motd: "Third Plug.dj Tourny is on Saturday. Sign up here http://challonge.com/forsentourny3. Open registration, for more information visit the Challonge Page. Games will be streamed on http://www.twitch.tv/tarulihs",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
