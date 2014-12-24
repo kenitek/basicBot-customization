@@ -1101,7 +1101,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Third Plug.dj Tourny is on Saturday. Sign up here http://challonge.com/forsentourny3. Open registration, for more information visit the Challonge Page. Games will be streamed on http://www.twitch.tv/tarulihs",
+        motd: "Third Plug.dj Tourny is on SUNDAY. Sign up here http://challonge.com/forsentourny3. Open registration, for more information visit the Challonge Page. Games will be streamed on http://www.twitch.tv/tarulihs",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
