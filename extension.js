@@ -1101,7 +1101,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Third Plug.dj Tourny is on SUNDAY. Sign up here http://challonge.com/forsentourny3. Open registration, for more information visit the Challonge Page. Games will be streamed on http://www.twitch.tv/tarulihs",
+        motd: "Read the rules: http://pastebin.com/6NEPtZW9. While Forsen is streaming no: Sanic, MLG, Earrape, Scotland",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
