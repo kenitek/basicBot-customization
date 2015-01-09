@@ -1076,7 +1076,7 @@
         maximumAfk: 5000,
         afkRemoval: false,
         maximumDc: 60,
-        bouncerPlus: false,
+        bouncerPlus: true,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
