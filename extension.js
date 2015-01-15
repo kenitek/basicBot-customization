@@ -1087,6 +1087,7 @@
         autodisable: true,
         commandCooldown: 1,
         usercommandsEnabled: true,
+        blacklistEnabled: false,
         lockskipPosition: 2,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
