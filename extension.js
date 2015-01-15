@@ -1077,6 +1077,7 @@
         afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
+        blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
@@ -1087,7 +1088,6 @@
         autodisable: true,
         commandCooldown: 1,
         usercommandsEnabled: true,
-        blacklistEnabled: false,
         lockskipPosition: 2,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
