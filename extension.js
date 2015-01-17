@@ -1102,7 +1102,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Read the rules: http://pastebin.com/6NEPtZW9. While Forsen is streaming no: Sanic, MLG, Earrape, Scotland",
+        motd: "Sign up for the fourth plugdj tournament here challonge.com/plugdjforsen4. Open Registration, Saturday 4:00pm CET, EU Server. Please provide battletag and plug dj name",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
