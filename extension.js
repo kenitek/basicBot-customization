@@ -1102,7 +1102,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Sign up for the fourth plugdj tournament here http://challonge.com/plugdjforsen4. Open Registration, Saturday 4:00pm CET, EU Server. Please provide battletag and plug dj name",
+        motd: "Read the rules: "http://pastebin.com/6NEPtZW9. While Forsen is streaming no: Sanic, MLG, Earrape, Scotland, Scrollex, Word Nigger",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
