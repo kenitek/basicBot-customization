@@ -1102,7 +1102,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Read the rules: http://pastebin.com/6NEPtZW9. While Forsen is streaming no: Sanic, MLG, Earrape, Scotland, Skrollex, The Word 'Nigger'",
+        motd: "Sign up for the 5th Plug dj Tournament on the 14th http://challonge.com/plugdjforsen5. Open Registration, New Format. Read the challonge description for more details.",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
