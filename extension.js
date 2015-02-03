@@ -1123,6 +1123,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Kenitek/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/kenitek/basicBot/master/basicBot.js', extend);
 
 }).call(this);
