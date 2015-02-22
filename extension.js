@@ -1115,7 +1115,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Read the rules: http://pastebin.com/6NEPtZW9. While Forsen is streaming no: Sanic, MLG, Earrape, Scotland, Scrollex, Word Nigger.",
+        motd: "Sign up for the next Plug dj Tournament on Mar 7 http://challonge.com/plugdjforsen6 Please provide Battle tag, Plug dj ID, and Classes",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
