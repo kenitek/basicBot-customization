@@ -1115,7 +1115,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Sign up for the next Plug dj Tournament on Mar 7 http://challonge.com/plugdjforsen6 Please provide Battle tag, Plug dj ID, and Classes",
+        motd: "Sign up for the next Plug dj Tournament on Mar 7 http://challonge.com/plugdjforsen6 Please provide Battle tag, Plug dj ID, and 4 Classes",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
