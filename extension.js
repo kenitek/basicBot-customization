@@ -1129,6 +1129,7 @@
         messageInterval: 1,
         songstats: false,
         commandLiteral: "!",
+        historyskip: false,
         blacklists: {
             NSFW: "https://rawgit.com/kenitek/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
             OP: "https://rawgit.com/kenitek/basicBot-customization/master/blacklists/ExampleOPlist.json"
