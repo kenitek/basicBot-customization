@@ -1120,7 +1120,7 @@
         etaRestriction: false,
         welcome: false,
         opLink: "http://forsencancer.weebly.com/",
-        rulesLink: "http://pastebin.com/6NEPtZW9",
+        rulesLink: "http://pastebin.com/jycfP7eA",
         themeLink: "http://i.imgur.com//nNSnshB.png",
         fbLink: "https://twitter.com/forsensc2",
         youtubeLink: "https://twitch.tv/hornpub :kappa:",
