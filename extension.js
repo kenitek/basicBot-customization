@@ -1115,7 +1115,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Sign up for the Eighth Plug DJ Forsen Tournament on May 2. Open registration, New Format http://challonge.com/plugdjforsen8",
+        motd: "Sign up for the Ninth Plug DJ Forsen Tournament on May 23. Open Registration, Group Stage http://challonge.com/plugdjforsen9",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
